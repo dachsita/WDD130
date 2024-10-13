@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White Water Rafting for Dummies</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
 </head>
 <body>
-    <header>
+    <header style="display: flex; align-items: center;">
         <a id="logo_link" href="index.html">
-            <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            <img class="logo" src="images/logo.png" alt="Dry Oar Logo" style="width: 100px; margin-right: 20px;">
         </a>
-        <nav>
+        <nav style="display: flex;">
             <a href="index.html">Home</a>
             <a href="#">Page 2</a>
             <a href="site-plan-rafting.html">Site Plan</a>
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
+
     <div id="hero">
         <div id="hero-box">
             <img id="hero-img" src="images/hero.png" alt="People enjoying rafting">
@@ -30,6 +31,30 @@
             </div>
         </section>
     </div>
+    <div id="content">
+        <header>
+        . . .
+        </footer>
+    </div>
+    <style>
+        body {
+            background-color: beige;
+            text-align: center; /* Center all text */
+        }
+        .msg, .home-grid {
+            background-color: darkgreen;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center; /* Center text in these sections */
+        }
+        .card-img, #hero-img, .mountains {
+            display: block; /* Make images block elements */
+            margin: 0 auto; /* Center images */
+        }
+        .msg h2, .msg p, .home-grid h2 {
+            color: white; 
+        }
+    </style>        
     <main class="home-grid">
         <section class="rivers-card">
             <img class="card-img" src="images/rivers.jpg" alt="River in forest">
@@ -54,7 +79,7 @@
         </section>
     </main>
     <footer>
-        <p>Dry Oar &copy; 2024 - Joshua Argyle</p>
+        <p>Dry Oar &copy; 2024 - Simone Stephenson</p>
         <p><a href="site-plan-rafting.html">Site Plan</a></p>
         <p><a href="contactus.html">Contact Us</a></p>
         <div class="social">
